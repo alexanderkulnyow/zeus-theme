@@ -1,0 +1,15 @@
+{
+    "name": "zeus",
+    "version": "0.1.0",
+    "description": "",
+    "license": "GPL-2.0-or-later",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "bundle": "dir-archiver --src . --dest ./zeus-theme.jar --exclude .DS_Store .idea Makefile .editorconfig .env .stylelintrc.json .eslintrc .git zeus-theme.jar logs var .gitattributes .github .gitignore README.md composer.json composer.lock node_modules package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map yarn.lock"
+    },
+    "devDependencies": {
+        "dir-archiver": "^2.1.0"
+    }
+}
