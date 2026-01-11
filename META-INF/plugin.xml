@@ -4,11 +4,11 @@
     <id>com.alexanderkulnyow.zeus.theme</id>
 
     <!-- SemVer -->
-    <version>2026.1.1</version>
+    <version>2026.1.11</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Zeus Theme</name>
+    <name>Zeus</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
@@ -31,7 +31,7 @@
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes>
         <![CDATA[
-            <b>2026.1.1</b>
+            <b>2026.1.11</b>
             <ul>
                 <li>
                     Initial version
@@ -45,6 +45,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="f3c4e2b1-9a7d-4e6b-8c2a-6f1b9d4a8e57" path="/theme/zeus.theme.json"/>
+        <themeProvider id="f3c4e2b1-9a7d-4e6b-8c2a-6f1b9d4a8e57" path="theme/zeus.theme.json"/>
     </extensions>
 </idea-plugin>
