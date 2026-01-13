@@ -4,7 +4,7 @@
     <id>com.alexanderkulnyow.zeus.theme</id>
 
     <!-- SemVer -->
-    <version>2026.1.11</version>
+    <version>2026.1.13</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -33,9 +33,11 @@
         <![CDATA[
             <b>2026.1.11</b>
             <ul>
-                <li>
-                    Initial version
-                </li>
+                <li>Initial version</li>
+            </ul>
+             <b>2026.1.13</b>
+            <ul>
+                <li>Reset console font color</li>
             </ul>
         ]]>
     </change-notes>

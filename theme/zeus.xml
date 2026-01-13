@@ -11,6 +11,7 @@
         <property name="ideVersion">2025.3.1.0.0</property>
     </metaInfo>
     <colors>
+        <option name="CONSOLE_BACKGROUND_KEY" value="2E3336" />
         <option name="GUTTER_BACKGROUND" value="2e3336" />
         <option name="INDENT_GUIDE" value="3c3e42" />
         <option name="LINE_NUMBERS_COLOR" value="888888" />
@@ -130,132 +131,6 @@
         <option name="CONDITIONALLY_NOT_COMPILED">
             <value>
                 <option name="FOREGROUND" value="536c46" />
-            </value>
-        </option>
-        <option name="CONSOLE_BLACK_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="aca8a8" />
-                <option name="BACKGROUND" value="0" />
-            </value>
-        </option>
-        <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="7bc7ff" />
-                <option name="BACKGROUND" value="446e8e" />
-            </value>
-        </option>
-        <option name="CONSOLE_BLUE_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="7ac7ff" />
-                <option name="BACKGROUND" value="474646" />
-            </value>
-        </option>
-        <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="74b8ef" />
-                <option name="BACKGROUND" value="4f81a5" />
-            </value>
-        </option>
-        <option name="CONSOLE_CYAN_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="404040" />
-                <option name="BACKGROUND" value="1adca7" />
-            </value>
-        </option>
-        <option name="CONSOLE_DARKGRAY_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="b1afaf" />
-                <option name="BACKGROUND" value="a5a3a3" />
-            </value>
-        </option>
-        <option name="CONSOLE_ERROR_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="ff8d76" />
-            </value>
-        </option>
-        <option name="CONSOLE_GRAY_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="c2bfbf" />
-                <option name="BACKGROUND" value="c6c3c3" />
-            </value>
-        </option>
-        <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="75ff00" />
-                <option name="BACKGROUND" value="7d00" />
-            </value>
-        </option>
-        <option name="CONSOLE_GREEN_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="1adca7" />
-                <option name="BACKGROUND" value="8b26" />
-            </value>
-        </option>
-        <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="ffa9a8" />
-                <option name="BACKGROUND" value="ac5fc6" />
-            </value>
-        </option>
-        <option name="CONSOLE_MAGENTA_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="424040" />
-                <option name="BACKGROUND" value="ff70ff" />
-            </value>
-        </option>
-        <option name="CONSOLE_NORMAL_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="a7b3c2" />
-            </value>
-        </option>
-        <option name="CONSOLE_OUTPUT">
-            <value>
-                <option name="BACKGROUND" value="2e3336" />
-            </value>
-        </option>
-        <option name="CONSOLE_RANGE_TO_EXECUTE">
-            <value>
-                <option name="BACKGROUND" value="2e3336" />
-            </value>
-        </option>
-        <option name="CONSOLE_RED_BRIGHT_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="ba4949" />
-                <option name="BACKGROUND" value="ff0000" />
-            </value>
-        </option>
-        <option name="CONSOLE_RED_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="ff0700" />
-                <option name="BACKGROUND" value="f19c9c" />
-            </value>
-        </option>
-        <option name="CONSOLE_SYSTEM_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="ffffff" />
-            </value>
-        </option>
-        <option name="CONSOLE_USER_INPUT">
-            <value>
-                <option name="FOREGROUND" value="a7b3c2" />
-            </value>
-        </option>
-        <option name="CONSOLE_WHITE_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="f8f8f0" />
-                <option name="BACKGROUND" value="ffffff" />
-            </value>
-        </option>
-        <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="ffe700" />
-                <option name="BACKGROUND" value="80740f" />
-            </value>
-        </option>
-        <option name="CONSOLE_YELLOW_OUTPUT">
-            <value>
-                <option name="FOREGROUND" value="aca8a8" />
-                <option name="BACKGROUND" value="8e8e00" />
             </value>
         </option>
         <option name="CSS.COLOR">
@@ -993,7 +868,7 @@
         </option>
         <option name="JS.GLOBAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="b00fc7" />
+                <option name="FOREGROUND" value="859CFFFF" />
                 <option name="FONT_TYPE" value="3" />
             </value>
         </option>
@@ -1216,7 +1091,7 @@
         </option>
         <option name="OC.DIRECTIVE">
             <value>
-                <option name="FOREGROUND" value="80b000" />
+                <option name="FOREGROUND" value="859CFFFF" />
             </value>
         </option>
         <option name="OC.KEYWORD">

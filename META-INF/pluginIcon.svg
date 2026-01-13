@@ -1,18 +1,18 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-    <!-- Левая половина -->
+<svg width="200" height="200" viewBox="0 0 200 200"
+     xmlns="http://www.w3.org/2000/svg">
     <path d="
-    M100,100
-    L29.29,29.29
-    A100,100 0 0,1 170.71,170.71
-    Z" fill="#2e3336"/>
-
-    <!-- Правая половина -->
+        M 100 100
+        L 29.29 170.71
+        A 100 100 0 0 1 170.71 29.29
+        Z
+    " fill="#2e3336"/>
     <path d="
-    M100,100
-    L170.71,29.29
-    A100,100 0 0,1 29.29,170.71
-    Z" fill="#faa193"/>
+        M 100 100
+        L 170.71 29.29
+        A 100 100 0 0 1 29.29 170.71
+        Z
+    " fill="#faa193"/>
+    <circle cx="100" cy="100" r="100"
+            fill="none" stroke="black" stroke-width="1"/>
 
-    <!-- Контур круга для полного вида -->
-    <circle cx="100" cy="100" r="100" fill="none" stroke="black" stroke-width="1"/>
 </svg>
