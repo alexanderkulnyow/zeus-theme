@@ -4,7 +4,7 @@
     <id>com.alexanderkulnyow.zeus.theme</id>
 
     <!-- SemVer -->
-    <version>2026.1.17</version>
+    <version>2026.1.18.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -39,9 +39,13 @@
             <ul>
                 <li>Reset console font color</li>
             </ul>
-             <b>2026.1.17</b>
+             <b>2026.1.18</b>
             <ul>
                 <li>color fix</li>
+            </ul>
+            <b>2026.1.18.1</b>
+            <ul>
+                <li>Dark UI theme is now used instead of Darcula</li>
             </ul>
         ]]>
     </change-notes>
