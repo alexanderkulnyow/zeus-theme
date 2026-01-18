@@ -15,6 +15,7 @@ After installing the theme, go to `Preferences | Appearance & Behavior | Appeara
 ## License
 
 This color scheme is based on [Zeus-Theme](https://github.com/zaynali53/Zeus-Theme) by [Zayn Ali](https://github.com/zaynali53), licensed under the MIT License. 
+
 Modified by Alexander Kulnyow.
 
 MIT License. See LICENSE file for details.
