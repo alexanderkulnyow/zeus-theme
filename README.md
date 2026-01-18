@@ -1,6 +1,6 @@
 # JetBrains Zeus Theme
 [![JetBrains plugin version](https://img.shields.io/jetbrains/plugin/v/29701-zeus.svg)](https://plugins.jetbrains.com/plugin/29701-zeus)
-[![JetBrains plugin downloads](https://img.shields.io/jetbrains/plugin/d/29701-zeus.svg)](https://plugins.jetbrains.com/plugin/11938-one-dark-theme)
+[![JetBrains plugin downloads](https://img.shields.io/jetbrains/plugin/d/29701-zeus.svg)](https://plugins.jetbrains.com/plugin/29701-zeus)
 
 [Zeus](https://github.com/alexanderkulnyow/zeus-theme) theme for JetBrains.
 
