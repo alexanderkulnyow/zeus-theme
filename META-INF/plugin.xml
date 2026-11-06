@@ -3,8 +3,8 @@
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.alexanderkulnyow.zeus.theme</id>
 
-    <!-- Calendar version: year.month.day, with an optional same-day revision. -->
-    <version>2026.11.6</version>
+    <!-- Calendar version: year.month.day.build; build numbering starts at 1 each day. -->
+    <version>2026.11.6.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -53,6 +53,11 @@
                 <li>Removed an unused duplicate color definition.</li>
                 <li>Updated release packaging to include the current license attribution.</li>
                 <li>Simplified automated builds and Marketplace publishing.</li>
+            </ul>
+            <b>2026.11.6.1</b>
+            <ul>
+                <li>The interface now inherits the built-in JetBrains Dark theme instead of copying its settings.</li>
+                <li>The editor scheme now inherits Darcula defaults for Git status colors, caret-row highlighting, and other editor colors.</li>
             </ul>
         ]]>
     </change-notes>
