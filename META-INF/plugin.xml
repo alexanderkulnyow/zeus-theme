@@ -3,8 +3,8 @@
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.alexanderkulnyow.zeus.theme</id>
 
-    <!-- SemVer -->
-    <version>2026.1.18.1</version>
+    <!-- Calendar version: year.month.day, with an optional same-day revision. -->
+    <version>2026.11.6</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -47,6 +47,13 @@
             <ul>
                 <li>Dark UI theme is now used instead of Darcula</li>
             </ul>
+            <b>2026.11.6</b>
+            <ul>
+                <li>Added built-in Marketplace error and UI freeze reporting.</li>
+                <li>Removed an unused duplicate color definition.</li>
+                <li>Updated release packaging to include the current license attribution.</li>
+                <li>Simplified automated builds and Marketplace publishing.</li>
+            </ul>
         ]]>
     </change-notes>
 
@@ -56,5 +63,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="f3c4e2b1-9a7d-4e6b-8c2a-6f1b9d4a8e57" path="theme/zeus.theme.json"/>
+        <errorHandler implementation="com.intellij.diagnostic.JetBrainsMarketplaceErrorReportSubmitter"/>
     </extensions>
 </idea-plugin>

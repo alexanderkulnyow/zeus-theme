@@ -1,0 +1,66 @@
+name: Build theme
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 'Publish to JetBrains Marketplace (Stable, default branch only)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Install XML tools
+        run: |
+          if ! command -v xmllint > /dev/null; then
+            sudo apt-get update
+            sudo apt-get install --yes --no-install-recommends libxml2-utils
+          fi
+
+      - name: Validate theme resources
+        run: |
+          jq empty theme/zeus.theme.json
+          xmllint --nonet --noout META-INF/plugin.xml META-INF/pluginIcon.svg theme/zeus.xml
+
+      - name: Build JAR
+        run: |
+          zip -q -X -MM zeus-theme.jar \
+            LICENSE.txt META-INF/MANIFEST.MF META-INF/plugin.xml \
+            META-INF/pluginIcon.svg theme/zeus.theme.json theme/zeus.xml
+          unzip -tq zeus-theme.jar
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: zeus-theme
+          path: zeus-theme.jar
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish to JetBrains Marketplace
+        if: github.event_name == 'workflow_dispatch' && inputs.publish && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+        env:
+          MARKETPLACE_TOKEN: ${{ secrets.MARKETPLACE_TOKEN }}
+        run: |
+          : "${MARKETPLACE_TOKEN:?Add the MARKETPLACE_TOKEN repository secret}"
+          curl --fail-with-body --silent --show-error \
+            --connect-timeout 20 --max-time 120 \
+            --header "Authorization: Bearer $MARKETPLACE_TOKEN" \
+            --form 'pluginId=29701' \
+            --form 'file=@zeus-theme.jar' \
+            https://plugins.jetbrains.com/api/updates/upload

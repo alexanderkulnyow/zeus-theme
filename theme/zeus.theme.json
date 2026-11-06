@@ -2,9 +2,6 @@
     "name": "Zeus",
     "author": "Alexander Kulnyow",
     "dark": true,
-    "colors": {
-        "bg": "#2b2d30"
-    },
     "editorScheme": "theme/zeus.xml",
     "colors": {
         "Gray1": "#1E1F22",
